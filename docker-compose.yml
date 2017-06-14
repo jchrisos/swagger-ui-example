@@ -8,6 +8,8 @@ services:
     command: sh -c 'npm install && npm start'
     ports:
       - "3000:3000"
+    extra_hosts:
+      registry.npmjs.org: 151.101.48.162
   swagger-ui:
     image: swaggerapi/swagger-ui:v3.0.13
     ports:
