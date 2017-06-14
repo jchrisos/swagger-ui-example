@@ -1,0 +1,13 @@
+{
+  "name": "swagger-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server --cors -p 3000"
+  },
+  "author": "Julio Chrisostomo"
+}
